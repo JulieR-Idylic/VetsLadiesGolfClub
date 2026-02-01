@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="256" ry="256" fill="#E6F4EF"/>
+
+  <!-- Pin pole -->
+  <rect x="250" y="110" width="12" height="220" rx="6" fill="#1F4D3A"/>
+
+  <!-- Flag -->
+  <path d="M262 120 L360 145 L262 170 Z" fill="#1F4D3A"/>
+
+  <!-- Pin base -->
+  <circle cx="256" cy="350" r="22" fill="#1F4D3A"/>
+</svg>

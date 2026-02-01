@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vets Ladies Golf Club</title>
+
+  <meta
+    name="description"
+    content="Women’s golf, community, and weekly play at Veterans Memorial Golf Course."
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Accessibility: skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Vets Ladies Golf Club home">
+        <img
+          src="assets/img/logo.png"
+          alt="Vets Ladies Golf Club logo"
+          class="brand-logo"
+        />
+        <span class="brand-name">Vets Ladies Golf Club</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          Menu
+        </button>
+
+        <ul id="nav-menu" class="nav-menu">
+          <li><a href="events.html">Events</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a class="member-link" href="members/" aria-label="Member Area">
+                Member Area
+            </a>
+           </li>
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <img src="assets/img/logo.png" alt="Vets Ladies Golf Club logo" class="hero-logo" />
+          <h1>Women’s golf, great community, and a welcoming place to play.</h1>
+
+          <p class="lead">
+            We play Wednesday mornings at Veterans Memorial Golf Course from March through October. 
+            No matter your skill, you are welcome to join us for 18 or 9 holes of play.    
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="events.html">Events</a>
+            <a class="btn btn-secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img
+            src="assets/img/hero.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE ARE -->
+    <section
+      id="who"
+      class="section"
+      aria-labelledby="who-heading"
+    >
+      <div class="container">
+        <h2 id="who-heading">Who we are</h2>
+
+        <p>
+          We’re a women’s golf club focused on friendly competition, consistent
+          play, and a supportive, inclusive community.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Welcoming</h3>
+            <p>
+              Golfers of all skill levels are encouraged to participate and
+              improve at their own pace.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Organized</h3>
+            <p>
+              Clear weekly logistics, simple events, and easy-to-find
+              information.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Community-minded</h3>
+            <p>
+              We support local community projects and enjoy giving back when opportunities arise.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLUB LOGISTICS -->
+    <section
+      id="logistics"
+      class="section section-alt"
+      aria-labelledby="logistics-heading"
+    >
+      <div class="container">
+        <h2 id="logistics-heading">Club logistics</h2>
+
+        <div class="two-col">
+          <div>
+            <h3>When we play</h3>
+            <ul class="bullets">
+              <li><strong>Day:</strong> Wednesdays</li>
+              <li>
+                <strong>Tee times by month:</strong>
+                <ul class="bullets">
+                    <li>March – April: 10:00 AM</li>
+                    <li>May – June: 9:00 AM</li>
+                    <li>July – August: 8:00 AM</li>
+                    <li>September: 9:00 AM</li>
+                    <li>October: 10:00 AM</li>
+                </ul>
+                </li>
+              <li><strong>Season:</strong> March – October</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Cost & joining</h3>
+            <ul class="bullets">
+              <li><strong>Dues:</strong> $20 per season</li>
+              <li>
+                <strong>How to join:</strong> Email us for details and next steps
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h3>How league play works</h3>
+        <ul class="bullets">
+          <li><strong>Weekly games:</strong> You can choose to play in our weekly games - a different format each week (e.g., sweeps, scramble, low putts, etc).</li>
+          <li><strong>Season competitions:</strong> Optional season-long contests and end-of-season awards.</li>
+          <li><strong>Results:</strong> Posted weekly in the Member Area.</li>
+        </ul>
+
+        <p>
+            <a class="btn btn-secondary" href="play.html">Weekly games & season competitions</a>
+        </p>
+
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      id="contact"
+      class="section"
+      aria-labelledby="contact-heading"
+    >
+      <div class="container">
+        <h2 id="contact-heading">Contact</h2>
+
+        <p>
+          Email is the best way to reach us. We’ll respond as soon as possible.
+        </p>
+
+        <div class="contact-actions">
+          <a
+            class="btn"
+            href="mailto:YOURCLUBEMAIL@example.com"
+          >
+            Email the club
+          </a>
+        </div>
+
+        <!-- Optional contact form can be added later -->
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <small>
+        © <span id="year"></span> Vets Ladies Golf Club
+      </small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
