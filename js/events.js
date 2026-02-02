@@ -1,7 +1,8 @@
 (() => {
   // Set this page's audience filter
   // Public events page should show: "public" + "both"
-  const AUDIENCE_MODE = "public"; // change to "members" for member pages later
+  // Member events page should show: "member" + "both"
+  const AUDIENCE_MODE = "public";
 
   const listEl = document.getElementById("events-list");
   const emptyEl = document.getElementById("events-empty");
